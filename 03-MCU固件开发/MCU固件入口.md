@@ -18,7 +18,7 @@ status: active
 
 - GPIO和外部中断
 - 定时器、PWM、ADC和DMA
-- UART、I²C、SPI、CAN和USB
+- UART、I²C、I²S、SPI、CAN和USB
 - HAL、LL与寄存器
 
 ## 外部器件驱动
@@ -29,12 +29,20 @@ status: active
 - 超时、重试和异常恢复
 - 对上层提供稳定API
 
+## RTOS与图形界面
+
+- FreeRTOS任务、队列和同步
+- 显示模组与显示驱动
+- LVGL、TouchGFX等GUI框架
+- 触摸、按键和旋钮输入
+- Framebuffer、资源和性能优化
+- [[08-平台集成与应用案例/图形界面开发/图形界面技术地图]]
+
 ## 固件系统能力
 
 - 非阻塞状态机
-- FreeRTOS
 - Bootloader与升级
 - 低功耗和看门狗
 - 日志、测试与版本管理
 
-目标是能够独立完成MCU固件和外部器件驱动，而不是从零重写每一个片上外设控制器。
+目标是能够独立完成MCU固件、外部器件驱动和GUI应用，而不是从零重写每一个片上控制器。
