@@ -1,6 +1,5 @@
 ---
 type: moc
-status: active
 ---
 
 # MCU固件开发入口
@@ -8,10 +7,11 @@ status: active
 ## 概念边界
 
 - [[03-MCU固件开发/MCU片上外设与外部器件]]
-- [[06-BSP与驱动适配/MCU驱动与Linux驱动的区别]]
+- [[07-BSP与驱动适配/MCU驱动与Linux驱动的区别]]
 
 ## 平台
 
+- [[03-MCU固件开发/MCU平台家族技术地图]]
 - [[03-MCU固件开发/STM32/STM32技术地图]]
 
 ## MCU片上外设
@@ -31,12 +31,13 @@ status: active
 
 ## RTOS与图形界面
 
+- [[03-MCU固件开发/RTOS/RTOS技术地图]]
 - FreeRTOS任务、队列和同步
 - 显示模组与显示驱动
 - LVGL、TouchGFX等GUI框架
 - 触摸、按键和旋钮输入
 - Framebuffer、资源和性能优化
-- [[08-平台集成与应用案例/图形界面开发/图形界面技术地图]]
+- [[06-图形界面开发/图形界面开发入口]]
 
 ## 固件系统能力
 
